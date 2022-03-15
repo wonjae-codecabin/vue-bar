@@ -131,6 +131,7 @@
         attrs: {
           id: ("bar-id-" + index),
           value: item.title,
+          test: `testonlyyyxxxx`,
           fill: (gradients ? gradients[index] : (_this.gradient[0] ? _this.gradient[0] : '#000')),
           x: item.x - offsetX,
           y: item.y,
