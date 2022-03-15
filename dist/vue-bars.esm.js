@@ -125,7 +125,7 @@ function genBars (_this, arr, h) {
       attrs: {
         id: ("bar-id-" + index),
         value: item.title,
-        class: 'cursor-hover',
+        class: 'cursor-pointer',
         fill: (gradients ? gradients[index] : (_this.gradient[0] ? _this.gradient[0] : '#000')),
         x: item.x - offsetX,
         y: item.y,
