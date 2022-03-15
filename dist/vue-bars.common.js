@@ -126,6 +126,7 @@ function genBars (_this, arr, h) {
     return h('rect', {
       attrs: {
         id: ("bar-id-" + index),
+        test: `testonly`,
         fill: (gradients ? gradients[index] : (_this.gradient[0] ? _this.gradient[0] : '#000')),
         x: item.x - offsetX,
         y: item.y,
